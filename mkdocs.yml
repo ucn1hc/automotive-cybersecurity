@@ -1,0 +1,53 @@
+site_name: Automotive Cybersecurity
+nav:
+  - Home: index.md
+  - Introduction: Introduction.md
+  - Concepts:
+    - Basic properties of security - CIA: concepts\Basic-properties-of-security-CIA.md
+    - STRIDE: concepts\STRIDE.md
+    - Cryptography: concepts\Cryptography.md
+    - Digital signature and verification: concepts\Digital-signature-and-verification.md
+    - Hashing: concepts\Hashing.md
+    - PKI: concepts\PKI.md
+    - Key management and key exchange: concepts\Key-management-and-key-exchange.md
+  - Type of attacks:
+    - Overview: AttacksType\Type-of-attacks.md
+    - Sniffing/eavesdropping: Sniffing-eavesdropping.md
+    - Injection: Injection.md
+    - Replay: Replay.md
+    - Denial of service: Denial-of-service.md
+    - Fuzzing: Fuzzing
+    - DOS vs Fuzzing: DOS-vs-Fuzzing.md
+    - Impersonation: Impersonation.md
+  - ISO/SAE 21434:
+    - Overview: ISO-SAE-21434.md
+    - Cybersecurity management plan: Cybersecurity-management-plan.md
+    - Risk assessment: Risk-assessment.md
+    - Threat analysis and risk assessment: Threat-analysis-and-risk-assessment.md
+    - Security requirements: Security-requirements.md
+    - Verification and validation: Verification-and-validation.md
+    - Continuous monitoring: Continuous-monitoring.md
+  - UN regulation 155:
+    - Overview: UNR155\UN-regulation-155.md
+    - Cybersecurity management system: Cybersecurity-management-system.md
+    - Risk assessment: Risk-assessment-UN-regulation-155.md
+    - Security measures: Security-measures.md
+    - Incident response: Incident-response.md
+  - Cybersecurity in automotive:
+    - Overview: Cybersecurity-in-automotive.md
+    - secure boot and secure firmware update: Secure-boot-and-secure-firmware-update.md
+    - secure on board communication (SecOC): Secure-on-board-communication.md
+  - TARA practical analysis:
+    - Overview: TARA\TARA-practical-analysis.md
+    - TARA practical analysis example 1: TARA-practical-analysis-example.md
+    - TARA practical analysis example 2: TARA-practical-analysis-example-2.md
+    - TARA practical analysis example 3: TARA-practical-analysis-example-3.md
+    - TARA practical analysis example 4: TARA-practical-analysis-example-4.md
+    - TARA practical analysis example 5: TARA-practical-analysis-example-5.md
+    - TARA practical analysis example 6: TARA-practical-analysis-example-6.md
+  - Glossary: glossary.md
+plugins:
+  - search
+  - mermaid2
+theme:
+  name: material

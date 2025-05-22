@@ -1,0 +1,11 @@
+**Digital attack** : An attempt to gain unauthorized access to computer systems, networks, or digital devices, often to steal data, disrupt operations, or cause harm. Examples include hacking, phishing, malware, ransomware, and denial-of-service (DoS) attacks.
+
+**unauthorized access**: Gaining entry to a computer system, network, or data without permission. This can involve bypassing security controls or using stolen credentials to view, modify, or steal information.
+
+**Malicious attacks**: deliberate actions intended to harm, disrupt, or gain unauthorized access to computer systems, networks, or data. These attacks are carried out by individuals or groups with harmful intent, such as stealing information, damaging systems, or causing operational disruptions. Examples include hacking, malware, phishing, and ransomware.
+
+**Manipulation in cybersecurity**:  the unauthorized alteration or tampering of data, systems, or processes. This can involve changing information, modifying system behavior, or interfering with normal operations to achieve a malicious goal, such as misleading users, bypassing security controls, or causing harm.
+
+**Vulnerability**: a weakness or flaw in a system, software, or network that can be exploited by attackers to gain unauthorized access, cause damage, or disrupt operations. Vulnerabilities can result from design errors, coding mistakes, misconfigurations, or outdated software. Identifying and addressing vulnerabilities is essential to protect systems from cyber threats.
+
+**Standard bodies**: organizations that establish and maintain technical standards, guidelines, and best practices for various industries. In the context of cybersecurity, standard bodies like **ISO (International Organization for Standardization)**, **SAE (Society of Automotive Engineers)**, and **UNECE (United Nations Economic Commission for Europe)** create frameworks to ensure security, interoperability, and compliance. These standards help industries address vulnerabilities, protect systems, and maintain consistency in implementing cybersecurity measures.
