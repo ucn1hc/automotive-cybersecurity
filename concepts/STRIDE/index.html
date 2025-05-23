@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -302,6 +307,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    STRIDE
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -314,6 +334,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stride-threats-and-violated-security-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      STRIDE threats and Violated Security Properties
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1396,6 +1444,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stride-threats-and-violated-security-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      STRIDE threats and Violated Security Properties
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1411,9 +1478,60 @@
 
 
 
-  <h1>STRIDE</h1>
-
-
+<h1 id="overview">Overview</h1>
+<p>STRIDE is a thread modeling methodology used in cybersecurity to identify and categorize potential threats to a system. the acronym STRIDE stands for:</p>
+<ul>
+<li><strong>S</strong>poofing: pretending to be something or someone else.</li>
+<li><strong>T</strong>ampering: unauthorized modification of data or systems.</li>
+<li><strong>R</strong>epudiation:denying an action or transaction without a way to prove otherwise.</li>
+<li><strong>I</strong>nformation Disclosure: exposing information to unauthorized parties.</li>
+<li><strong>D</strong>enial of Service: Disrupting or denying access to services.</li>
+<li><strong>E</strong>levation of privilege: gaining unauthorized access or permission.</li>
+</ul>
+<p>STRIDE helps security professionals systematically analyze and address security risks during system design and development.</p>
+<h2 id="stride-threats-and-violated-security-properties">STRIDE threats and Violated Security Properties</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Threat</th>
+<th style="text-align: left;">Property violated</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>Spoofing</code></td>
+<td style="text-align: left;">authentication</td>
+<td style="text-align: left;">pretending to be something or someone other than yourself</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Tampering</code></td>
+<td style="text-align: left;">Integrity</td>
+<td style="text-align: left;">modifying something on disk, network, memory, or elsewhere</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Repudiation</code></td>
+<td style="text-align: left;">Non-repudiation</td>
+<td style="text-align: left;">claiming that you didn't do something or we're not responsible. can be honest or false</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Information disclosure</code></td>
+<td style="text-align: left;">confidentiality</td>
+<td style="text-align: left;">providing information to someone not authorized to access it.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Denial of service</code></td>
+<td style="text-align: left;">Availability</td>
+<td style="text-align: left;">exhausting resources needed to provide service.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Elevation of privilege</code></td>
+<td style="text-align: left;">authorization</td>
+<td style="text-align: left;">allowing someone to do something they are not authorized to do.</td>
+</tr>
+</tbody>
+</table>
+<p>Applying STRIDE methodology can identify all the threat vectors which are closely associated with cyber security properties.</p>
 
 
 
