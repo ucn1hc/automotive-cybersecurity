@@ -49,5 +49,7 @@ nav:
 plugins:
   - search
   - mermaid2
+markdown_extensions:
+  - tables
 theme:
   name: material
