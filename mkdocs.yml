@@ -10,7 +10,7 @@ nav:
     - Hashing: concepts\Hashing.md
     - PKI: concepts\PKI.md
     - Key management and key exchange: concepts\Key-management-and-key-exchange.md
-  - Type of attacks:
+  - Cyber attacks:
     - Overview: AttacksType\Type-of-attacks.md
     - Sniffing/eavesdropping: Sniffing-eavesdropping.md
     - Injection: Injection.md
