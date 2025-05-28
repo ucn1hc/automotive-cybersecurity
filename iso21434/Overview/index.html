@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../../AttacksType/Impersonation/">
+      
+      
+        <link rel="next" href="../Lifecycle/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>TARA pratical analysis - Automotive Cybersecurity</title>
+        <title>Overview - Automotive Cybersecurity</title>
       
     
     
@@ -57,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -89,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              TARA pratical analysis
+              Overview
             
           </span>
         </div>
@@ -661,18 +670,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -688,7 +699,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             ISO/SAE 21434
@@ -699,10 +710,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../iso21434/Overview/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -713,6 +733,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -725,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../iso21434/Lifecycle/" class="md-nav__link">
+      <a href="../Lifecycle/" class="md-nav__link">
         
   
   
@@ -748,7 +769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../iso21434/Cybersecurity-management/" class="md-nav__link">
+      <a href="../Cybersecurity-management/" class="md-nav__link">
         
   
   
@@ -771,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../iso21434/Cybersecurity-V-model/" class="md-nav__link">
+      <a href="../Cybersecurity-V-model/" class="md-nav__link">
         
   
   
@@ -1113,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../TARA-practical-analysis.md" class="md-nav__link">
+      <a href="../../TARA/TARA-practical-analysis.md" class="md-nav__link">
         
   
   
@@ -1313,6 +1334,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1328,9 +1351,62 @@
 
 
 
-  <h1>TARA pratical analysis</h1>
-
-
+<h1 id="overview">OVERVIEW</h1>
+<p>ISO/SAE 21434 Standard establishes a framework for <strong>cybersecurity engineering</strong> in <strong>road vehicles</strong>. It details the <strong>processes and policies</strong> required to <strong>manage cybersecurity risks</strong> throughout a vehicle's lifecycle, from concept and product development to production, operation, maintenance, and decommissioning. The standard emphasizes defining <strong>cybersecurity goals</strong> and requirements, performing <strong>threat analysis and risk assessment (TARA)</strong>, and managing vulnerabilities, all while promoting <strong>a strong cybersecurity culture</strong> within organizations involved in vehicle development. It also addresses considerations for <strong>distributed cybersecurity activities</strong> involving suppliers and the importance of <strong>validation and auditing</strong> to ensure the effectiveness of cybersecurity measures
+<img alt="OVERVIEW" src="../../images/Iso21434overview.png" /></p>
+<p>The structure of the standard is as follows:</p>
+<ul>
+<li>15 clauses, 11 are normative</li>
+<li>Similar structure and vocabulary as ISO
+26262</li>
+<li>Each clause has at least one requirement
+and one work product, with the exception of
+clauses 1-4.</li>
+<li>Some clauses have RC (recommendations),
+and PC (permissions)</li>
+<li>Nine informative appendixes</li>
+</ul>
+<h1 id="terminology">Terminology</h1>
+<p><img alt="relationship" src="../../images/repbtwiteamfunctions.png" />
+<strong>Asset</strong>: A part of an item that has cybersecurity
+properties (ex: OBD II port, safety requirements)</p>
+<p><strong>Attack Path</strong>: A series of steps that an intruder could use
+to compromise an asset.</p>
+<p><strong>Cybersecurity Goal</strong>: Top level product requirement
+resulting from the TARA (see below for TARA definition)</p>
+<p><strong>Cybersecurity Claim</strong>: An identified risk that will be
+accepted, typically mitigated by liability transfer.</p>
+<p><strong>Cybersecurity Concept</strong>: Cybersecurity requirements on
+the item and operating environment that implement
+controls to protect against threats.</p>
+<p><strong>Damage Scenario</strong>: The potential damage to a road user
+caused by the realization of a threat scenario.</p>
+<p><strong>Item</strong>: A component or a set of components that
+implements a function at the vehicle level. Could be
+identical to the functional safety item</p>
+<p><strong>TARA</strong>: Threat and Risk Assessment. Assets with
+cybersecurity properties are identified and damage
+scenarios are identified if the asset is compromised.
+Threat scenarios are identified and supported with
+attack paths. Risk values are assigned, and
+cybersecurity goals are established for unacceptable
+risk.</p>
+<p><strong>Threat Scenario</strong>: Potential cause of the compromise of
+the cybersecurity properties of one or more assets that
+leads to a damage scenario.</p>
+<h1 id="know-the-abbreviations">Know the Abbreviations</h1>
+<p><strong>RQ:Requirement</strong></p>
+<p>Mandatory rules shall be implemented for the compliance with the standard explanation of deviation in documents.
+Example: RQ-05-01</p>
+<p><strong>RC:Recommendation/Rationale</strong></p>
+<p>Optional Rules: Deviations can be accepted.
+Example: RC-05-13</p>
+<p><strong>PM: Process Measure</strong></p>
+<p>Best practices
+Example: PM-08-01</p>
+<p><strong>WP: Work products</strong></p>
+<p>set of rules, policies or outcome of the traceable products
+Example: WP-05-01</p>
 
 
 
